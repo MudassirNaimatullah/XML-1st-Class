@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Products>
+<Product-1>
+<id>10</id>
+<name>HeadPhone</name>
+<price>1200</price>
+<description>Best selling Product</description>
+</Product-1>
+<Product-2>
+<id>11</id>
+<name>Keyboard</name>
+<price>500</price>
+<description>Best selling Product</description>
+</Product-2>
+<Product-3>
+<id>12</id>
+<name>laptope</name>
+<price>12000</price>
+<description>Best selling Product</description>
+</Product-3>
+<Product-4>
+<id>13</id>
+<name>Gaming Pc</name>
+<price>22000</price>
+<description>Best selling Product</description>
+</Product-4>
+</Products>
