@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="data.xsl" type="text/xsl"?>
+<Students>
+<student>
+<name>Ali</name>
+<fees>1500</fees>
+<course>DISM</course>
+</student>
+<student>
+<name>Hassan</name>
+<fees>1500</fees>
+<course>DISM</course>
+</student>
+<student>
+<name>Hamza</name>
+<fees>500</fees>
+<course>CPISM</course>
+</student>
+</Students>
