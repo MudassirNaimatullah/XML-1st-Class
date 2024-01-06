@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+</head>
+<body>
+<input type="search" id="search">
+<button onclick="getValue()">Add</button>
+<ul id="list">
+    
+    
+</ul>
+
+
+
+    <script>
+        let input = document.querySelector("#search")
+        function getValue(){
+        document.getElementById("list").innerHTML+=`
+        <li>${input.value}
+        <button onclick="handleDelet(this)">Delet</button>
+        <button onclick="handelEdit">Edit</button>
+        </li>
+        `    
+        }
+        function handleDelet(a){
+            a.parentElement.remove()
+        }
+        function handleEdit(){
+            
+        }
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
